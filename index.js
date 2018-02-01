@@ -1,3 +1,10 @@
+const maxProduct = (arr, idx = 0, memo, result = 1) => {
+	let num = arr[idx];
+	if (idx === arr.length) return result;
+	let whenIncluded = maxProduct(arr, idx + 1, memo, (result * num));
+	let whenExcluded = maxProduct(arr, idx + 1, memo, result);
+	return Math.max(whenIncluded, whenExcluded);
+};
 
 const maxProductMemo = (arr, idx = 0, memo = {}, result = 1) => {
 	if (idx === arr.length) return result;
