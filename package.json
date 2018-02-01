@@ -1,0 +1,23 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "A bunch of algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickGund/algorithms.git"
+  },
+  "author": "Patrick Gund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatrickGund/algorithms/issues"
+  },
+  "homepage": "https://github.com/PatrickGund/algorithms#readme",
+  "dependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
