@@ -29,3 +29,4 @@ const findLargestDivior = n => {
 };
 
 console.log(findLargestDivior(600851475143));
+console.log(isPrime(7));
